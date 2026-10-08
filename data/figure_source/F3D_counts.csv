@@ -1,0 +1,7 @@
+annual_growth,strategy,cumulative_shortfall,display_filter,value_units
+0.02,Demand-proportional,116568.05457823547,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.02,Minimum-coverage-focused,116567.1681637364,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.02,Uniform,222374.4863820016,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Demand-proportional,0.0,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Minimum-coverage-focused,0.0,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Uniform,21129.03981128337,fixed; unconstrained; 2027 origin; g2/3,opportunities

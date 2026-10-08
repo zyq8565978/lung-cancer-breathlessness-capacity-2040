@@ -1,0 +1,7 @@
+annual_growth,strategy,L_country,display_filter,value_units
+0.02,Demand-proportional,13116.387678790485,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.02,Minimum-coverage-focused,13116.2299096777,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.02,Uniform,30991.470946354053,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Demand-proportional,0.0,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Minimum-coverage-focused,0.0,fixed; unconstrained; 2027 origin; g2/3,opportunities
+0.03,Uniform,2467.629753143473,fixed; unconstrained; 2027 origin; g2/3,opportunities

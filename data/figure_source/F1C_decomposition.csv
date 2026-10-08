@@ -1,0 +1,2 @@
+start,end,scenario,population_size,age_sex_structure,mortality_risk,total_change,structure_share_of_change,display_filter,value_units
+2023,2040,fixed_WPP,175262.74925557632,496074.103679958,-8.153241045268563e-11,671336.8529355342,0.738934711405742,2023-2040; 183; fixed,contributions: people; structure share: fraction

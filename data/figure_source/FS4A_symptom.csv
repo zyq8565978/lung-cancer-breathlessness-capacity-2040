@@ -1,0 +1,9 @@
+scope,scenario,baseline_p,multiplier,future_p,future_people,growth_pct,display_filter,value_units
+183_countries,damped_risk_WPP,0.78,0.5,0.39,1067644.213222235,-23.11776067098608,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,damped_risk_WPP,0.78,0.75,0.585,1601466.3198333522,15.323358993520865,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,damped_risk_WPP,0.78,1.0,0.78,2135288.42644447,53.76447865802785,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,damped_risk_WPP,0.78,1.25,0.975,2669110.533055588,92.2055983225348,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,fixed_WPP,0.78,0.5,0.39,1030005.7809335376,-25.82814576308995,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,fixed_WPP,0.78,0.75,0.585,1545008.671400306,11.25778135536506,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,fixed_WPP,0.78,1.0,0.78,2060011.561867075,48.3437084738201,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction
+183_countries,fixed_WPP,0.78,1.25,0.975,2575014.4523338443,85.42963559227515,183; future symptom multiplier; fixed/risk,future_people: people; multiplier: fraction

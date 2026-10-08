@@ -1,0 +1,410 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "full_sensitivity_grid": true,
+  "comparisons": [
+    {
+      "reference": "data/reference/demographic/age_sex_composition.csv",
+      "rows": 40,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/aggregate_capacity_requirements.csv",
+      "rows": 9,
+      "columns": 11,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/capacity_country_summary.csv",
+      "rows": 3,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/country_capacity_requirements.csv",
+      "rows": 549,
+      "columns": 12,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/country_coverage_paths.csv.gz",
+      "rows": 55998,
+      "columns": 12,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/country_endpoint_changes.csv",
+      "rows": 549,
+      "columns": 11,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/country_paths.csv",
+      "rows": 10797,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/country_service_reference_workflow.csv.gz",
+      "rows": 23424,
+      "columns": 22,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/coverage_allocation_comparison.csv",
+      "rows": 306,
+      "columns": 11,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/coverage_scope_sensitivity.csv",
+      "rows": 918,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/decomposition_countries.csv",
+      "rows": 549,
+      "columns": 8,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/decomposition_scope_sensitivity.csv",
+      "rows": 9,
+      "columns": 8,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/decomposition_summary.csv",
+      "rows": 3,
+      "columns": 8,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/extrapolation_checks.csv",
+      "rows": 4392,
+      "columns": 12,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/future_cells_2024_2040.csv.gz",
+      "rows": 74664,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/future_cells_2040.csv",
+      "rows": 4392,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/hindcast_cells.csv",
+      "rows": 5856,
+      "columns": 18,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/hindcast_countries.csv",
+      "rows": 732,
+      "columns": 10,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/hindcast_risk_fit_counts.csv",
+      "rows": 2,
+      "columns": 4,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/hindcast_scope_sensitivity.csv",
+      "rows": 12,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/hindcast_summary.csv",
+      "rows": 4,
+      "columns": 11,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/historical_cells.csv",
+      "rows": 11712,
+      "columns": 17,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/population_basis_country_sensitivity.csv",
+      "rows": 183,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/resources_per_1000.csv",
+      "rows": 408,
+      "columns": 21,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/risk_model_counts.csv",
+      "rows": 1,
+      "columns": 4,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/risk_trend_parameters.csv",
+      "rows": 1464,
+      "columns": 11,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/scope_totals.csv",
+      "rows": 177,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/service_enumerated_workflow.csv",
+      "rows": 4608,
+      "columns": 22,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/service_face_and_contacts.csv",
+      "rows": 384,
+      "columns": 22,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/symptom_parameter_grid.csv",
+      "rows": 144,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/symptom_tipping_thresholds.csv",
+      "rows": 9,
+      "columns": 5,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/demographic/time_varying_symptom_sensitivity.csv",
+      "rows": 36,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/allocation_strategy_contrasts.csv",
+      "rows": 4,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/coverage_target_conversion.csv",
+      "rows": 28,
+      "columns": 14,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/figure2_country_coverage_ecdf.csv",
+      "rows": 1098,
+      "columns": 5,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/joint_completion_bound.csv",
+      "rows": 2,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/main_allocation_annual.csv",
+      "rows": 84,
+      "columns": 38,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/main_allocation_endpoint.csv",
+      "rows": 6,
+      "columns": 38,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/main_country_allocation.csv.gz",
+      "rows": 15372,
+      "columns": 13,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/reference_service_funnel.csv",
+      "rows": 2,
+      "columns": 21,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/shortfall_decomposition_all_annual.csv",
+      "rows": 1008,
+      "columns": 38,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/shortfall_decomposition_all_endpoint.csv",
+      "rows": 72,
+      "columns": 38,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/derived/target_hours_versus_installed_capacity.csv",
+      "rows": 5,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/allocation_annual.csv",
+      "rows": 1008,
+      "columns": 26,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/allocation_country.csv.gz",
+      "rows": 184464,
+      "columns": 13,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/allocation_endpoint.csv",
+      "rows": 72,
+      "columns": 26,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/committed_budget_stress.csv",
+      "rows": 108,
+      "columns": 15,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/delivery_funnel.csv",
+      "rows": 1008,
+      "columns": 20,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/joint_completion_bounds.csv",
+      "rows": 2,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/planning_rates.csv",
+      "rows": 1656,
+      "columns": 9,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/resources_per_1000.csv",
+      "rows": 270,
+      "columns": 15,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/robust_scenarios.csv.gz",
+      "rows": 93312,
+      "columns": 23,
+      "matched": true
+    },
+    {
+      "reference": "data/reference/service/robust_summary.csv",
+      "rows": 3,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/income_age_sex.csv",
+      "rows": 240,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/income_allocation_annual.csv",
+      "rows": 4032,
+      "columns": 29,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/income_annual.csv",
+      "rows": 210,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/income_population.csv",
+      "rows": 6,
+      "columns": 35,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/main_regional_allocation.csv",
+      "rows": 42,
+      "columns": 29,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_age_sex.csv",
+      "rows": 280,
+      "columns": 7,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_allocation_annual.csv",
+      "rows": 4704,
+      "columns": 29,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_allocation_endpoint.csv",
+      "rows": 336,
+      "columns": 29,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_annual.csv",
+      "rows": 245,
+      "columns": 6,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_decomposition.csv",
+      "rows": 21,
+      "columns": 8,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/regional_population.csv",
+      "rows": 7,
+      "columns": 35,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/Table_1_values.csv",
+      "rows": 7,
+      "columns": 35,
+      "matched": true
+    },
+    {
+      "reference": "data/figure_source/Table_2_values.csv",
+      "rows": 6,
+      "columns": 29,
+      "matched": true
+    }
+  ],
+  "tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-06
+  }
+}

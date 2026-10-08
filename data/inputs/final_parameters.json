@@ -1,0 +1,22 @@
+{
+  "assigned": 126,
+  "first": 106,
+  "second": 93,
+  "c1": 0.8412698412698413,
+  "c2": 0.7380952380952381,
+  "conditional_second": 0.8773584905660378,
+  "duration_low": 30,
+  "duration_high": 45,
+  "duration_mid": 37.5,
+  "documentation_minutes": 10,
+  "coordination_minutes": 15,
+  "eligibility": 0.5,
+  "target": 0.5,
+  "symptom_p": 0.78,
+  "q_offer": 0.5,
+  "c12_proxy": 0.7380952380952381,
+  "c12_lower": 0.5793650793650794,
+  "c12_upper": 0.7380952380952381,
+  "h_hours_per_offered": 1.500330687830688,
+  "second_conditional_sequential": 0.8773584905660378
+}

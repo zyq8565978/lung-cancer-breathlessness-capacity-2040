@@ -1,0 +1,14 @@
+symbol,definition,display_filter,value_units
+D,WHO death estimate,model definitions; no patient flow observed,symbol definitions
+W,WPP population,model definitions; no patient flow observed,symbol definitions
+p,External symptom proportion,model definitions; no patient flow observed,symbol definitions
+N,Annual symptom-related death cohort,model definitions; no patient flow observed,symbol definitions
+e,Service applicability,model definitions; no patient flow observed,symbol definitions
+E,N times e,model definitions; no patient flow observed,symbol definitions
+q,Offer target among applicable people,model definitions; no patient flow observed,symbol definitions
+O,Capacity-constrained opportunities,model definitions; no patient flow observed,symbol definitions
+c1,First-contact fraction,model definitions; no patient flow observed,symbol definitions
+c2,Second-contact fraction,model definitions; no patient flow observed,symbol definitions
+c12,Joint attendance proxy or bound,model definitions; no patient flow observed,symbol definitions
+h,Listed activity hours per offered person,model definitions; no patient flow observed,symbol definitions
+K,Installed annual country activity-hour capacity,model definitions; no patient flow observed,symbol definitions

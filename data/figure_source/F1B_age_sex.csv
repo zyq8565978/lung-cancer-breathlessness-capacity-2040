@@ -1,0 +1,17 @@
+year,scenario,age,sex,deaths,symptom_people,share_of_year_scenario,display_filter,value_units
+2023,historical_GHE_estimate,30-49,Females,24170.44174143863,18852.94455832213,0.0135762136640536,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,30-49,Males,42003.999971981546,32763.119978145605,0.023593084663689,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,50-59,Females,70433.30340369738,54937.97665488396,0.0395614439447476,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,50-59,Males,173447.77990231558,135289.26832380617,0.0974232967977784,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,60-69,Females,149069.2789886264,116274.03761112862,0.0837302190810336,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,60-69,Males,373958.02531198313,291687.25974334683,0.2100472183062753,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,70+,Females,336805.2393202742,262708.0866698139,0.1891789956136984,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2023,historical_GHE_estimate,70+,Males,610464.1222975561,476162.0153920938,0.3428895279287236,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,30-49,Females,23696.94834864633,18483.61971194413,0.0089725805690098,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,30-49,Males,41614.27537904072,32459.134795651764,0.0157567731155026,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,50-59,Females,76651.83429076194,59788.43074679432,0.0290233471760738,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,50-59,Males,195470.10761527263,152466.68393991265,0.0740125379693139,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,60-69,Females,178623.3111422534,139326.18269095765,0.0676336896695281,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,60-69,Males,473060.5881239068,368987.2587366473,0.1791190231972381,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,70+,Females,570521.08408878,445006.4455892485,0.2160213339705338,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction
+2040,fixed_WPP,70+,Males,1081402.3149434857,843493.8056559189,0.4094607143327997,183; 2023 historical; 2040 fixed,symptom_people: people; share: fraction

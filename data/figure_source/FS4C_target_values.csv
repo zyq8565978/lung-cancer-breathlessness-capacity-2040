@@ -1,0 +1,4 @@
+target,required_offer_lower,required_offer_upper,display_filter,value_units
+0.25,0.3387096774193548,0.43150684931506844,algebraic joint-attendance bounds; fixed contact activity,fractions of applicable population
+0.5,0.6774193548387096,0.8630136986301369,algebraic joint-attendance bounds; fixed contact activity,fractions of applicable population
+0.75,1.0161290322580645,1.2945205479452053,algebraic joint-attendance bounds; fixed contact activity,fractions of applicable population

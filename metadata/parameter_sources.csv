@@ -1,0 +1,16 @@
+parameter,source,value_or_range,unit,evidence_class,applicability,location,URL
+death_counts,WHO GHE2023,2000;2010;2015;2019-2023,persons,official_model_estimate,"Same frozen release, not raw registered deaths",WHO GHE age-sex-cause workbooks,https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-leading-causes-of-death
+population,UN WPP2024,historical and medium projection to2040,persons,official_estimate_projection,Same population basis at origin and target; ages30+,WPP2024 five-year age/sex file,https://population.un.org/wpp/
+p_lung,Edmonds2001,0.78,proportion,transported_literature_parameter,"Regional1990 bereavement survey; last12months; cohort449, item denominator unresolved","Primary abstract, PMID12054146",https://pubmed.ncbi.nlm.nih.gov/12054146/
+lung_item_n,Not recovered,,responses,unresolved,Publisher subscription required; EuropePMC no OA or PMCID; do not substitute449,Publisher abstract and EuropePMC metadata,https://journals.sagepub.com/doi/10.1191/026921601678320278
+sessions,Johnson2015,1 or3,face-to-face contacts,published_planned_dose,"Alternatives, not equivalence trial; intrathoracic cancer and refractory symptoms",Methods; Intervention,https://doi.org/10.1186/s12916-015-0453-x
+face_minutes,Johnson2015,60,minutes/contact,published_planned_dose,Delivery involved nurses and therapists; all-nurse provision is our organisation scenario,Methods; Table1,https://doi.org/10.1186/s12916-015-0453-x
+phone_contacts,Johnson2015,1,clinical call/course,published_planned_dose,One week after last session; exclude optional monthly research assessment calls,Methods: intervention versus assessments,https://doi.org/10.1186/s12916-015-0453-x
+phone_minutes,Crooks2025 BREEZE-IPF,10 or15,minutes/call,borrowed_related_service,"Fibrotic ILD; PT/OT delivery; transferable activity-time scenario, NOT measured lung-cancer nurse duration",Accepted manuscript PDFp5; Study intervention,https://doi.org/10.1136/bmjresp-2024-002327
+documentation,Analyst scenario,10 or20,minutes/clinical contact,planning_assumption,Applies to every face-to-face and telephone contact; not study-measured,Prespecified protocolv2,
+coordination,Analyst scenario,0 or15 or30,minutes/course,planning_assumption,"0 is an explicit no-additional-coordination scenario, not imputed missing time",Prespecified protocolv2,
+staff_travel,Outpatient organisation scenario,0,minutes/course,structural_assumption,No home visits by design; patient travel not nurse work; home delivery not quantified,Scope specification,
+eligibility_e,User planning scenarios,.25;.50;.75;1.00,proportion symptomatic cohort,planning_assumption,1 only maximum-applicability assumption; never recruitment or completion proportion,User revised scope,
+coverage_q,User planning scenarios,.25;.50;.75;1.00,proportion eligible cohort,planning_assumption,"Target coverage, not measured current uptake",User revised scope,
+risk_slope_cap,Analyst scenario,-0.05 to0.05,log rate/year,model_structure_assumption,"Bounded sensitivity, not clinically estimated maximum",Protocol written before fitting,
+risk_damping_half_life,Analyst scenario,10,years,model_structure_assumption,One scenario; not tuned to hindcast performance,Protocol written before fitting,

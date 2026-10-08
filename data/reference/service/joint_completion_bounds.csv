@@ -1,0 +1,3 @@
+joint_complete_count,assigned,joint_completion,contact_count_per_assigned,hours_per_1000_completed,interpretation
+73,126,0.5793650793650794,1.5793650793650795,2589.6118721461185,Attendance overlap bound; same observed marginal contacts and hours
+93,126,0.7380952380952381,1.5793650793650795,2032.706093189964,Attendance overlap bound; same observed marginal contacts and hours
